@@ -7,13 +7,5 @@
       apt:
         name: apache2
         state: present
-        
-- name: Install Apache2 and Nginx
-  hosts: slave2
-  become: true
-  tasks:
-    - name: Install Nginx
-      apt:
-        name: nginx
-        state: present
+
      
